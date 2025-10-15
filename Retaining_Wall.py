@@ -121,12 +121,12 @@ label = Label(window, text = "Queries: 079bce174.sugam@pcampus.edu.np",
               bg="#334443"
               )
 label.place(x=280, y=180)
-# label = Label(window, text = "version: 1.0.0.0", 
-#               font = ('Times New Roman',8),
-#               fg = "#FFFEFB",
-#               bg="#334443"
-#               )
-# label.place(x=25, y=180)
+label = Label(window, text = "Developed By: Sugam Paudel", 
+              font = ('Times New Roman',8),
+              fg = "#FFFEFB",
+              bg="#334443"
+              )
+label.place(x=25, y=180)
 soil_layer = Entry(justify="center", font=("Times New Roman",15) )
 soil_layer.config(width=10)
 soil_layer.insert(0,1)
@@ -872,3 +872,4 @@ report.mainloop()
 
 
 sys.exit()
+
