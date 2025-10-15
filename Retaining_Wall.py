@@ -1,3 +1,11 @@
+# Retaining_Wall.py
+# Developed by: Sugam Paudel
+# Description: Retaining Wall Stability and Design Analysis Tool
+# Year: 2025
+
+
+
+
 from tkinter import *
 from tkinter import filedialog
 from matplotlib import pyplot as plt
@@ -861,5 +869,6 @@ lbl.place(x=100,y=1840+table_height/2+15)
 
 report.protocol("WM_DELETE_WINDOW",lambda: close_application())
 report.mainloop()
+
 
 sys.exit()
